@@ -30,7 +30,7 @@ services:
       - web
 
   nginx-proxy-pwa:
-    iamge: krumware/nginx-proxy-pwa
+    image: krumware/nginx-proxy-pwa
     ports:
       - "8443:443"
     volumes:
