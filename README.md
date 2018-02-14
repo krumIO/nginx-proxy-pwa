@@ -3,7 +3,7 @@
 nginx-proxy-pwa adds some common rules to nginx-proxy:alpine support PWAs with http/2 push manifest.
 An example issue this image attempts to alleviate is the instance of the error `upstream sent too big header while reading response header from upstream` during reverse proxy of http/2 requests.
 
-This image extends (jwilder/nginx-proxy:alpine)[https://github.com/jwilder/nginx-proxy], and users should refer that repository's documentation for additional info regarding nginx-proxy.
+This image extends [jwilder/nginx-proxy:alpine](https://github.com/jwilder/nginx-proxy), and users should refer that repository's documentation for additional info regarding nginx-proxy.
 
 ## Usage
 
